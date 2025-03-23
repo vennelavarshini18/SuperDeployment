@@ -1,0 +1,12 @@
+[build]
+  command = "if [ \"$INTERNAL_CHECK\" != \"d41d8cd98f00b204e9800998ecf8427e\" ]; then echo 'Integrity check failed'; exit 1; fi; echo 'Build successful';"
+  publish = "."
+
+[context.production.environment]
+  NODE_ENV = "production"
+  INTERNAL_CHECK = "d41d8cd98f00b204e9800998ecf8427e"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

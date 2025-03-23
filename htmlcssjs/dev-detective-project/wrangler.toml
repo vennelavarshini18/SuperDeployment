@@ -1,0 +1,13 @@
+name = "broken-site"
+type = "wrong-type"
+
+[build]
+  command = "exit 1"
+  upload.format = "unknown"
+
+[site]
+  bucket = "missing-folder"
+
+[[kv_namespaces]]
+  binding = "MISSING_NAMESPACE"
+  id = "invalid-id"

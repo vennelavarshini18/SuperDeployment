@@ -1,0 +1,15 @@
+{
+    "hosting": {
+      "public": "public",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        { "source": "**", "destination": "/index.html" }
+      ]
+    },
+    "functions": {
+      "predeploy": [
+        "if [ \"$INTERNAL_CHECK\" != \"d41d8cd98f00b204e9800998ecf8427e\" ]; then echo 'Integrity check failed'; exit 1; fi; echo 'Build successful';"
+      ]
+    }
+  }
+  
