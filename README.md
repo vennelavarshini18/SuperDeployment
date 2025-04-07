@@ -65,7 +65,7 @@
 - Deploy a given Node.js backend application.
 
 **Submission Requirements:**
-- Provide links for deployments on **AWS EC2** (if applicable), **Google Cloud / Azure**, and **Render**.
+- Provide links for deployments on **AWS EC2** (if applicable), **Google Cloud / Azure**, **Vercel** and **Render**.
 - Describe **HTTPS setup & security measures**.
 - Write a **detailed deployment process report**.
 
@@ -74,10 +74,24 @@
 
 ---
 
+### **Level 4: Full Stack Deployment**
+**Task:**
+- Deploy a given full stack project, React for frontend and Nodejs for Backend.
+
+**Submission Requirements:**
+- Provide links for deployments on **AWS EC2** (if applicable), **Google Cloud / Azure**, **Vercel** and **Render**.
+- Describe **HTTPS setup & security measures**.
+- Write a **detailed deployment process report**.
+
+**Purpose:**
+- Focus on full stack management and deployment skills, security (HTTPS), and in-depth deployment processes.
+
+---
+
 ## 🎯 Extra Points Opportunities
 - **CI/CD Pipelines:** Extra points for setting up automated deployments.
 - **Dockerization:** Extra points for containerizing projects with Docker.
-
+- **Github Action:** Extra points for adding Github Action with Render, Vercel or Netlify. ( Also provide github action workflow files on docs for final submission )
 ---
 
 ## ⚡ Special Event: Fastest Deployer
