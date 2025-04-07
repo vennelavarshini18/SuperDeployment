@@ -1,0 +1,43 @@
+.white { 
+  background-color: whitesmoke;
+}
+
+.black {
+	background-color: #818189;
+}
+
+.btn {
+	margin: 10px 0;
+	display: inline-block;
+	padding: 6px;
+	width: 100px;
+	color: #818181;
+	font-weight: 400;
+	border: 2px solid #818181;
+	background-color: transparent;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 0.4s;
+}
+
+.btn:hover {
+	color: black;
+	border: 2px solid black;	
+}
+
+.btndisabled {
+	margin: 10px 0;
+	display: inline-block;
+	padding: 6px;
+	width: 100px;
+	border-radius: 100px;
+	font-weight: 400;
+	background-color: transparent;
+	cursor: not-allowed;
+	text-transform: uppercase;
+	color: black;
+	border: 2px solid black;
+	/* box-shadow: 0 12px 16px 0 rgba(81, 81, 81, 0.7), 0 17px 50px 0 rgba(81, 81, 81, 0.7);
+	text-shadow: 0 12px 16px 0 rgba(81, 81, 81, 0.7), 0 17px 50px 0 rgba(81, 81, 81, 0.7); */
+}
