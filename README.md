@@ -104,11 +104,15 @@
 
 ## 🛠 Repository Structure
 ```plaintext
-backend/                  # Node.js backend project for Level 3
-fastdeploy/               # Fastest Deployer challenge project
-htmlcssjs/                # HTML/CSS/JS project for Level 1
-react/                    # React project for Level 2
-README.md                 # This file
+Level 0                      # Contains demo Portfolio 
+Level 1                      # Contains HTML, CSS and JS files
+Level 2/                     # Contains React Application
+Level 3/                     # Contains Backend ( Nodejs ) Application
+Level 4/                     # Contains full stack project
+   -> client                 # Contains client side code
+   -> server                 # Contains server side code
+fastdeploy                   # kicker ( wait for it ) 
+README.md                    # This file
 ```
 
 ---
