@@ -47,6 +47,14 @@ You are encouraged to submit **multiple deployed links** for a single project ac
 **🎯 Goal:**  
 A simple warm-up to ensure you can deploy a basic web project.
 
+**👊Process:**
+- Created a New Github Repo called MyPortFolio
+- Pushed all the changes made into the new repo.
+- Logged into vercel.com
+- Created a new project
+- Imported MyPortFolio Repo.
+- Deployed it successfully!!
+
 ---
 
 ### **🟡 Level 1: Multi-Site HTML/CSS/JS Deployment**
