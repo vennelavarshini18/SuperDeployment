@@ -72,6 +72,8 @@ A simple warm-up to ensure you can deploy a basic web project.
 **🎯 Goal:**  
 Explore and compare multiple hosting providers.
 
+**👊Process:**
+- 
 ---
 
 ### **🟠 Level 2: React App - Bug Fix & Deployment**
