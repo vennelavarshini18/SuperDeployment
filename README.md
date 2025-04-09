@@ -73,7 +73,13 @@ A simple warm-up to ensure you can deploy a basic web project.
 Explore and compare multiple hosting providers.
 
 **👊Process:**
-- 
+- Created a New Github Repo called FirstDeployment
+- Pushed all the changes made into the new repo.
+- Logged into vercel.com
+- Created a new project
+- Imported FirstDeployment Repo.
+- Deployed it successfully!!
+
 ---
 
 ### **🟠 Level 2: React App - Bug Fix & Deployment**
