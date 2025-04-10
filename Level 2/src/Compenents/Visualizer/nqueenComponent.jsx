@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { Nqueen } from "../Algorithm/nqueen";
 import { changeDelay } from "../Utils/utils";
-import './nqueenCompone'
+import './nqueenComponent.css';
 
 export default function NQueen() {
 
@@ -22,10 +22,12 @@ export default function NQueen() {
 			arr.push(tr)
 		}
 		setGrid(arr);
-		var ele = document.querySelectorAll('.element-block')
-		for (i = 0; i < ele.length; i++) {
-			ele[i].innerHTML = '';
-		}
+		setTimeout(() => {
+			const ele = document.querySelectorAll('.element-block');
+			for (let i = 0; i < ele.length; i++) {
+				ele[i].innerHTML = '';
+			}
+		}, 0); 
 	}
 	useEffect(() => {
 		renderGrid(4);

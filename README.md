@@ -97,6 +97,9 @@ Explore and compare multiple hosting providers.
 **🎯 Goal:**  
 Show off your debugging skills and ability to deploy a polished React app.
 
+
+**👊Process:**
+
 ---
 
 ### **🔵 Level 3: Node.js Backend Deployment**
